@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Exercises : Form Part 2</title>
+        <link rel="stylesheet" href="css/form2.css" type="text/css">
+	</head>
+<body>
+<h1>Please Enter Your Detail For Our Website</h1>
+<form action="" method="post">
+    <fieldset>
+        <legend>Your General Details</legend>
+        <label>Name:</label><input type="text" name="name"><br>
+        <label>Gender:</label>
+          <input type="radio" name="radio" id="gender" value="m" />
+        Male
+        <input type="radio" name="radio" id="gender" value="w" />
+        Female
+        <br>
+        <label>Age:</label><input type="text" name="age" maxlength="3"><br />
+        <label>Date of birth :</label><input type="date"  id="birth" name="birth" value="mm/dd/yyyy"/><br />
+        <label>Favorite color:</label><input type="color"  id="color" name="color" /><br />
+        <label>Which country:</label><select name="country" multiple></select><br />
+    
+    </fieldset>
+    <fieldset>
+        <legend>Your Indicators</legend>
+        
+        <label>Hight: </label><span>Short<input type="range" name="hight" min="0" max="100">Tall</span><br>
+        <label>Salary:</label><span>Poor<input type="range" name="salasy" min="0" max="100">Rich</span><br>
+    
+    </fieldset>
+    <fieldset>
+        <legend>Your Contact Infirnatuib</legend>
+        <label>Email:</label><input type="email"  id="birth" name="email" /><br>
+        <label>Mobile:</label><input type="tel"  id="mobile" name="mobile" /><br>
+        <label>Address:</label><textarea name="" cols="" rows=""></textarea><br>
+        <label>Modthod to contact you:</label>
+            <input name="Email" type="checkbox" value="Email" />Email
+            <input name="Whatsapp" type="checkbox" value="Whatsapp" />Whatsapp
+            <input name="In-app chat" type="checkbox" value="In-app chat" />In-app chat
+        <br>
+    
+    
+    </fieldset>
+    
+    <label><input type="submit" value="submit"></label>
+</form>
+</body>
+</html>

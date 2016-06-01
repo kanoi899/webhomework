@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Exercises : Form Part 1 HTML</title>
+	</head>
+<body>
+<h1>Please Enter Your Detail For Our Website</h1>
+<form action="" method="post">
+    <fieldset>
+        <legend>Your General Details</legend>
+        <label>Name:<input type="text" name="name"></label><br>
+        <label>Gender:
+          <input type="radio" name="radio" id="gender" value="m" />
+        Male</label>
+        <input type="radio" name="radio" id="gender" value="w" />
+        <label for="gender2">Female</label>
+        <br>
+        <label>Age:<input type="text" name="age" maxlength="3"></label><br />
+        <label>Date of birth :<input type="date"  id="birth" name="birth" value="mm/dd/yyyy"/></label><br />
+        <label>Favorite color:<input type="color"  id="color" name="color" /></label><br />
+        <label>Which country:<select name="country" multiple></select></label><br />
+    
+    </fieldset>
+    <fieldset>
+        <legend>Your Indicators</legend>
+        <label>Hight: Short<input type="range" name="hight" min="0" max="100">Tall</label><br>
+        <label>Salary:Poor<input type="range" name="salasy" min="0" max="100">Rich</label><br>
+    
+    </fieldset>
+    <fieldset>
+        <legend>Your Contact Infirnatuib</legend>
+        <label>Email:<input type="email"  id="birth" name="email" /></label><br>
+        <label>Mobile:<input type="tel"  id="mobile" name="mobile" /></label><br>
+        <label>Address:<textarea name="" cols="" rows=""></textarea></label><br>
+        <label>Modthod to contact you:
+            <input name="Email" type="checkbox" value="Email" />Email
+            <input name="Whatsapp" type="checkbox" value="Whatsapp" />Whatsapp
+            <input name="In-app chat" type="checkbox" value="In-app chat" />In-app chat
+        </label><br>
+    
+    
+    </fieldset>
+    
+    <label><input type="submit" value="submit"></label>
+</form>
+</body>
+</html>
